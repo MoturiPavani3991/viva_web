@@ -556,7 +556,7 @@
 
     // var socket = io("https://screensecureapp.mybluemix.net/");
 
-    var socket = io("http://localhost:8888/");
+    var socket = io("https://vivabot-web.herokuapp.com/");
 
     // $('.typing').show();
     $('#chatlog1').append('<div class="bubble you">' +"Hello, I’m your VIVA assistant bot. You can ask me about VIVA plans, services and more!"+ '</div>').animate({ scrollTop: 10000 }, 0)
@@ -779,7 +779,7 @@ socket.on('planMsg',function(msg){
 
     //      })
     function openpages() {
-      window.open("http://localhost:8888/Login/login.html");
+      window.open("https://vivabot-web.herokuapp.com//Login/login.html");
 //window.location = "http://yahoo.com"
    }
 
