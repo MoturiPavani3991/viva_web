@@ -179,7 +179,7 @@
 	$(window).ready(function(){
     	$("#button1").click(function(){
 
-			$.post("http://localhost:8888/checkCredentials",{
+			$.post("https://vivabot-web.herokuapp.com/checkCredentials",{
                 userName:document.getElementById('userName').value,
                 userPassword:document.getElementById('userPassword').value,
                 //href:window.location.href.split('?')[1].split('=')[1].split('&')[0]
