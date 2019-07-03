@@ -14,7 +14,7 @@ const TFACheck = require('./CloudFunctions/TFACheck');
 
 var watson = require('watson-developer-cloud');
 var server = require('http');
-var server = app.listen(process.env.PORT || 8888, function () {
+var server = app.listen(process.env.PORT || 8080, function () {
 	console.log("Server is running at 8888");
 });
 var username = '670c7140-2118-4b76-ab85-9cb7899af063-bluemix';
